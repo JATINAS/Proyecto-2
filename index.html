@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Anime Theater</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+        <script src="js/main.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <link rel="stylesheet" href="styles/styles.css">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg text-bg-dark p-3">
+                <div class="container-fluid">
+                    <img class="logo" src="images/logo2.jpg" alt="mask">
+
+                    <div class="collapse navbar-collapse nav-div" id="navbarScroll">
+                        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+
+                            <li class="nav-item">
+                                <a class="nav-link active text-light-emphasis" aria-current="page" href="index.html">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light-emphasis" href="library.html">LIBRARY</a>
+                            </li>
+                            
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" id="search" type="search" placeholder="Search" aria-label="Search"/>
+                            <button class="btn btn-outline-success" id="search-button">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+
+            <div id="carouselExampleCaptions" class="carousel slide carousel-img">
+
+                <div class="carousel-indicators totalIndicators">
+
+                </div>
+                
+                <div class="carousel-inner carousel-main" id="anime-grid">
+
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+
+            <div class="anime-tags" id="anime-tags">
+                
+            </div>
+
+        </main>
+    </body>
+</html>

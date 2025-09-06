@@ -1,0 +1,111 @@
+body {
+  background-color: #3f3e3e;
+}
+body .logo {
+  width: 6%;
+}
+body header .navbar {
+  font-size: 2rem;
+  font-weight: 600;
+}
+body header .nav-div {
+  margin: 0%;
+  justify-content: space-between;
+}
+body header .nav-div ul {
+  margin-inline: 10%;
+  justify-content: space-between;
+  width: auto;
+  box-sizing: border-box;
+}
+body header .nav-div ul li {
+  margin-inline: 5%;
+}
+body main .carousel-img {
+  margin: 20px 0;
+}
+body main .carousel-img .car-img {
+  width: auto;
+  height: 30rem;
+  margin-inline: auto;
+  cursor: pointer;
+}
+body main .carousel-img .carousel-text {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-align: justify;
+}
+body main .carousel-img .carousel-text .synopsis {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 3;
+  color: #bccbc1;
+  text-decoration: none;
+}
+body main .carousel-img .carousel-text .synopsis.showMore {
+  -webkit-box-orient: unset;
+  transition: all 3s ease;
+}
+body main .carousel-img .title {
+  opacity: 1;
+}
+body main .carousel-img .title h5 {
+  font-size: 3.25rem;
+  margin-bottom: 1rem;
+}
+body main .carousel-img .title.show {
+  opacity: 0.05;
+  transition: all 0.2s ease;
+}
+body main .anime-tags {
+  width: 80%;
+  margin: 80px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+body main .anime-tags .anime-tag {
+  height: 460px;
+  cursor: pointer;
+  text-align: center;
+  margin: 15px;
+  box-sizing: border-box;
+}
+body main .anime-tags .anime-tag.scaleSection {
+  scale: 1.1;
+}
+body main .anime-tags .anime-tag .anime-cover {
+  width: 100%;
+  height: 70%;
+}
+body main .anime-tags .anime-tag .description-tag {
+  height: 30%;
+  border: solid 3px rgba(22, 229, 6, 0.7098039216);
+}
+body main .anime-tags .anime-tag .description-tag.showBackground {
+  background-color: rgba(22, 229, 6, 0.7098039216);
+  color: #3f3e3e;
+}
+body main .anime-tags .anime-tag .description-tag h3 {
+  font-weight: 500;
+  margin: 5px 0;
+  padding-inline: 5px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+}
+body main .anime-tags .anime-tag .description-tag p {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 100%;
+  color: #83a586;
+  font-weight: 400;
+  margin-bottom: 0;
+  padding-inline: 10px;
+}
+body main .anime-tags .anime-tag .description-tag p.showBackground {
+  color: #3f3e3e;
+}/*# sourceMappingURL=styles.css.map */
