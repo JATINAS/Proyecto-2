@@ -2,7 +2,7 @@ let animeCounter = 0;
 const animesLimit = 5;
 const animesTagsLimit = 20;
 let page = 1;
-const size = 20;
+const size = 25;
 
 //------------CARD TEMPLATE
 const createAnimecard = (anime) => {
